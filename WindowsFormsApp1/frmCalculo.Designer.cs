@@ -40,7 +40,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(148, 125);
+            this.label1.Location = new System.Drawing.Point(131, 125);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(94, 25);
             this.label1.TabIndex = 0;
@@ -91,7 +91,6 @@
             this.txtResultadoSomar.Name = "txtResultadoSomar";
             this.txtResultadoSomar.Size = new System.Drawing.Size(100, 30);
             this.txtResultadoSomar.TabIndex = 1;
-
             // 
             // frmCalculo
             // 

@@ -44,7 +44,7 @@
             this.btnMostrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnMostrar.Location = new System.Drawing.Point(380, 309);
             this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(266, 50);
+            this.btnMostrar.Size = new System.Drawing.Size(183, 50);
             this.btnMostrar.TabIndex = 0;
             this.btnMostrar.Text = "Mostrar";
             this.btnMostrar.UseVisualStyleBackColor = false;

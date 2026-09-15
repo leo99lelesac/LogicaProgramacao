@@ -21,5 +21,44 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void btnMostrar_Click(object sender, EventArgs e)
+        {
+            if (txtNome.Text.Trim() == "")
+            {
+                MessageBox.Show("preencher o campo nome");
+                txtNome.Focus();
+                txtNome.Clear();
+            }
+
+            else if (txtRua.Text.Trim() == string.Empty)
+            {
+
+                MessageBox.Show("preencher o campo rua");
+                txtRua.Focus();
+                txtRua.Clear();
+
+            }
+            else if (txtBairro.Text.Trim() == string.Empty)
+            {
+                MessageBox.Show("preencher o campo bairro");
+                txtBairro.Focus();
+                txtBairro.Clear();
+            }
+            else
+            {
+                string nome;
+                string rua;
+                string bairro;
+
+                nome = txtNome.Text;
+                rua = txtRua.Text;
+                bairro = txtBairro.Text;
+
+
+                MessageBox.Show(" Nome digitado " + nome +  "\n sua rua : " + rua + " \n seu bairro : " + bairro);
+            }
+
+        }
     }
 }
